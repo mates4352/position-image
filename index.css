@@ -1,0 +1,155 @@
+.image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1em;
+	border: 1px solid #000;
+	transition-duration: 1s;
+	background-color: rgb(252, 243, 243);
+}
+.image img {
+	width: 100%;
+	height: 100%;
+}
+
+.text {
+	font-size: 20px;
+	padding: 25px 0;
+	background-color: rgb(252, 243, 243);
+}
+.image:nth-child(1) {
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 300px;
+	left: 20%;
+}
+.image:nth-child(1) img {
+	width: 100%;
+	height: 100%;
+}
+
+.image:nth-child(2) {
+	width: 300px;
+	position: absolute;
+	top: 250px;
+	left: 19%;
+	z-index: -1;
+	transform: rotate(-30deg);
+}
+.image:nth-child(2) img {
+	width: 100%;
+	height: 100%;
+}
+
+.image:nth-child(3) {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 500px;
+	left: 120px;
+	z-index: -2;
+	transform: rotate(-10deg);
+}
+.image:nth-child(3) img {
+	width: 100%;
+	height: 100%;
+}
+
+.image:nth-child(4) {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	z-index: -3;
+	transform: rotate(10deg);
+}
+.image:nth-child(4) img {
+	width: 100%;
+	height: 100%;
+}
+
+.image:nth-child(5) {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 600px;
+	left: 350px;
+	z-index: -2;
+	transform: rotate(-10deg);
+}
+.image:nth-child(5) img {
+	width: 100%;
+	height: 100%;
+}
+
+.image:nth-child(6) {
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 400px;
+	left: 700px;
+	z-index: -4;
+	transform: rotate(50deg);
+}
+.image:nth-child(6) img {
+	width: 100%;
+	height: 100%;
+}
+
+.image:nth-child(7) {
+	width: 500px;
+	position: absolute;
+	top: 300px;
+	left: 800px;
+	z-index: -5;
+	transform: rotate(-10deg);
+}
+.image:nth-child(7) img {
+	width: 100%;
+	height: 100%;
+}
+
+.image:nth-child(8) {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 300px;
+	left: 1000px;
+	z-index: -5;
+	transform: rotate(20deg);
+}
+.image:nth-child(8) img {
+	width: 100%;
+	height: 100%;
+}
+.image:nth-child(9) {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 600px;
+	left: 500px;
+	z-index: -2;
+	transform: rotate(-180deg);
+}
+.image:nth-child(9) img {
+	width: 100%;
+	height: 100%;
+}
+.image:nth-child(10) {
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	z-index: -10;
+	transform: rotate(45deg);
+}
+.image:nth-child(10) img {
+	width: 100%;
+	height: 100%;
+}
+.image:hover {
+	transform: scale(1.5);
+	z-index: 10000000;
+}
